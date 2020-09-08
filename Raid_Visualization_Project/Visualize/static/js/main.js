@@ -105,7 +105,8 @@ function submitForm()
         }
         else if(disks%2 != 0)
         {
-            alert('The number of disk must be multiple of 2');
+            alert('The number of disk must be multiple of 2 for raid level 10');
+            flag = false;
         }
     }
 
